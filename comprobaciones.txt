@@ -1,4 +1,5 @@
 $ git log --oneline --graph --all
+* 0d06044 Docs: Documents the practice and add the checks
 * 433ccb8 Style: Add shadow to the principal button and close the issue #2
 *   73f2910 Fix: Solve the conflict with cover.css
 |\  
@@ -26,3 +27,27 @@ $ git tag
 
 $ git log --format="%an <%ae>" | sort -u
 José Manuel González Hernández <jose.glez.hdez@icloud.com>
+
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	modified:   ae1-user2 (new commits, modified content)
+	modified:   comprobaciones.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+$ gh pr list --state all
+4	Improve UX with cool colors	cool-colors	CLOSED	2026-09-27T13:20:06Z
+2	Add custom text for startup contents	custom-text	MERGED	2026-09-27T10:56:33Z
+
+$ gh issue list --state all
+3	CLOSED	Improve UX with cool colors		2026-09-27T13:22:43Z
+1	CLOSED	Add custom text for startup contents		2026-09-27T11:22:05Z
+
+$ gh release list
+0.1.0	Latest	0.1.0	2026-09-27T12:58:16Z
