@@ -1,0 +1,28 @@
+$ git log --oneline --graph --all
+* 433ccb8 Style: Add shadow to the principal button and close the issue #2
+*   73f2910 Fix: Solve the conflict with cover.css
+|\  
+| * 10f4917 Style: Change the button color to dark green.
+* | 9ad6f3f Style: Change the button color
+|/  
+*   3b10a19 Merge pull request #2 from Jose-Glez-Hdez/custom-text
+|\  
+| * 3adcd54 Refactor: Chang the slogan
+| * 9232417 Refactor: Add some text on index.html
+| * 9e84728 Update index.html with custom text
+|/  
+* 3267dc1 Docs: Add documentation and CI workflow
+* f2d1698 Add cover.css, index.html, and .gitignore
+* 9e05c51 Initial commit
+
+$ git remote -v
+espejo	git@github.com:jose-glez-hdez/git-work-espejo.git (fetch)
+espejo	git@github.com:jose-glez-hdez/git-work-espejo.git (push)
+origin	https://github.com/Jose-Glez-Hdez/git-work.git (fetch)
+origin	https://github.com/Jose-Glez-Hdez/git-work.git (push)
+
+$ git tag
+0.1.0
+
+$ git log --format="%an <%ae>" | sort -u
+José Manuel González Hernández <jose.glez.hdez@icloud.com>
