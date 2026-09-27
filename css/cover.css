@@ -7,7 +7,7 @@
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: darkgreen;
+  color: darkgreen; /* Comment to make the commit possible.
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
